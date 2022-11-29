@@ -4,8 +4,7 @@ const App = () => {
   return (
     <BbbMobileSdk
       // join url 
-      jUrl={""}
-      onLeaveSession={() => console.log("exited")}
+      jUrl={} onLeaveSession={() => console.log("exited")}
     />
   )
 };

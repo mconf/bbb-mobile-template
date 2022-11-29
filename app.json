@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "BBB-mobile-template",
+    "plugins": "@config-plugins/react-native-webrtc",
     "slug": "BBB-mobile-template",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,7 +25,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "bbb.mobile.template"
     },
     "web": {
       "favicon": "./assets/favicon.png"

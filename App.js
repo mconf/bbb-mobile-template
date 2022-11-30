@@ -1,11 +1,20 @@
-import BbbMobileSdk from "bbb-mobile-sdk";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import Home from './src/screens/Home'
+import InsideConference from './src/screens/InsideConference'
+
+const Stack = createNativeStackNavigator();
 
 const App = () => {
   return (
-    <BbbMobileSdk
-      // join url 
-      jUrl={""} onLeaveSession={() => console.log("exited")}
-    />
+    <NavigationContainer>
+      <Stack.Navigator
+        screenOptions={{headerShown: false}}
+      >
+        <Stack.Screen name="Home" component={Home}/>
+        <Stack.Screen name="InsideConference" component={InsideConference}/>
+      </Stack.Navigator>
+    </NavigationContainer>
   )
 };
 

@@ -73,3 +73,8 @@ web-build/
 dist/
 
 # @end expo-cli
+
+# .android
+android/.gradle
+android/app/build
+android/build

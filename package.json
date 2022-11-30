@@ -1,6 +1,15 @@
 {
-  "name": "bbb-mobile-template",
-  "version": "1.0.0",
+  "name": "@mconf/bbb-mobile-template",
+  "version": "1.0.1",
+  "repository": "https://github.com/germanocaumo/bbb-mobile-template",
+  "description": "BBB mobile template easy to start your own mobile client",
+  "keywords": [
+    "bbb",
+    "mobile",
+    "native"
+  ],
+  "author": "BigBlueButton",
+  "license": "MIT",
   "scripts": {
     "start": "expo start --dev-client",
     "android": "expo run:android",

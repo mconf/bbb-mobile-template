@@ -2356,9 +2356,9 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-"bbb-mobile-sdk@git+https://github.com/mconf/bbb-mobile-sdk.git#fix-portal-jurl":
+"bbb-mobile-sdk@git+ssh://git@github.com:mconf/bbb-mobile-sdk.git#fix-portal-jurl":
   version "1.0.1"
-  resolved "git+https://github.com/mconf/bbb-mobile-sdk.git#48691f9e4071d6aac00859354db34a3a856cd238"
+  resolved "git+ssh://git@github.com:mconf/bbb-mobile-sdk.git#48691f9e4071d6aac00859354db34a3a856cd238"
   dependencies:
     "@browser-bunyan/console-formatted-stream" "^1.8.0"
     "@browser-bunyan/console-raw-stream" "^1.8.0"

@@ -22,6 +22,7 @@ You have to set the Android variables for you environment:
 
 ## How to run
      $ expo init my-app --template @mconf/bbb-mobile-template
+     $ yarn install
      $ expo run:android  
      $ expo run:ios # you should be on a mac to run this command
 

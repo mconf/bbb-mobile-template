@@ -23,7 +23,7 @@ You have to set the Android variables for you environment:
 ## How to run
      $ expo init my-app --template @mconf/bbb-mobile-template
      $ expo run:android  
-     $ expo run:ios
+     $ expo run:ios # you should be on a mac to run this command
 
 ## Using the sdk in your app
     import BbbMobileSdk from "bbb-mobile-sdk";

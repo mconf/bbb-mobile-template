@@ -1,7 +1,10 @@
 {
   "expo": {
     "name": "BBB-mobile-template",
-    "plugins": "@config-plugins/react-native-webrtc",
+    "plugins": [
+      "@config-plugins/react-native-webrtc",
+      "@notifee/react-native"
+    ],
     "slug": "BBB-mobile-template",
     "version": "1.0.0",
     "orientation": "portrait",
